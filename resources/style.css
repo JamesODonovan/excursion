@@ -1,0 +1,21 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+header .title {
+    color: white;
+    font-weight: normal;
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+header .link {
+    color: aquamarine;
+    font-size: 16px;
+    text-align: center;
+}
