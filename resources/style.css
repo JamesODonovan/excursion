@@ -4,18 +4,50 @@ html {
 
 body {
     background-color: black;
-}
-
-header .title {
-    color: white;
-    font-weight: normal;
-    font-size: 50px;
-    width: 100%;
     text-align: center;
+    color: white;
 }
 
-header .link {
+.link {
     color: aquamarine;
     font-size: 16px;
     text-align: center;
 }
+
+.translucent {
+    color: gray;
+    font-size: 21px;
+}
+
+/*========Header=======*/
+.title {
+    color: white;
+    font-weight: normal;
+    font-size: 50px;
+    width: 100%;
+}
+
+/*=======Main Content======*/
+.main-content .video {
+    display: flex;
+    justify-content: center;
+
+}
+
+.header{
+    font-weight: 300;
+    font-size: 42px;
+}
+
+/*=======Footer=======*/
+.copyright {
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+    float: right;
+}
+
+.copyright p {
+    margin-left: 6px;
+}
+
